@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gokul Kumaravel Pillai | Developer</title>
+    <meta name="keywords" content="gokulkumaravelpillai, gokul, angular" />
+    <meta name="description" content="Gokul Kumaravel Pillai | Developer" />
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+    <meta name="theme-color" content="#36d1dc" />
+    <!-- link tags -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is
+          <span class="text-color-main name">Gokul Kumaravel Pillai</span>
+          <br />
+          A many-sided developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/gokul_dp.jpg"
+              alt="Profile Image"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I have always been passionate about problem-solving, especially in
+              mathematics. This led me to discover competitive coding in high
+              school and pursue a degree in computer science. During my
+              undergraduate studies, I excelled in data structures and
+              participated in various coding competitions, winning numerous
+              prizes. A workshop on MEAN stack conducted by Sirius Computer
+              Solutions during my final year sparked my interest in web
+              development. I then honed my skills in both data structures and
+              web development, leading to a job at Sirius Computer Solutions as
+              a digital consultant. In this role, I provided technical solutions
+              and solved technical problems for clients using web technologies
+              for almost three years.
+            </p>
+            <span class="about-wrapper__cta">
+              <a
+                href="./assets/gokul_kumaravel_pillai.pdf"
+                target="_blank"
+                class="cta-btn cta-btn--resume"
+                >View Resume</a
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-bar-container">
+          <li>
+            <div class="progressbar-wrapper">
+              <div class="progressbar-title">
+                <p class="bold title">HTML5</p>
+                <p class="percent" id="html-pourcent"></p>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressred" id="progress-html"></span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="progressbar-wrapper">
+              <div class="progressbar-title">
+                <p class="title bold">CSS / SASS</p>
+                <p class="percent" id="css-pourcent"></p>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progresspurple" id="progress-css"></span>
+              </div>
+            </div>
+          </li>
+  
+          <li>
+            <div class="progressbar-wrapper">
+              <div class="progressbar-title">
+                <p class="title bold">JavaScript / jQuery</p>
+                <p class="percent" id="javascript-pourcent"></p>
+              </div>
+              <div class="bar-container">
+                <span
+                  class="progressbar progresspurple"
+                  id="progress-javascript"
+                ></span>
+              </div>
+            </div>
+          </li>
+  
+          <li>
+            <div class="progressbar-wrapper">
+              <div class="progressbar-title">
+                <p class="title bold">Angular</p>
+                <p class="percent" id="angular-pourcent"></p>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressred" id="progress-angular"></span>
+              </div>
+            </div>
+          </li>
+  
+          <li>
+            <div class="progressbar-wrapper">
+              <div class="progressbar-title">
+                <p class="title bold">Ionic</p>
+                <p class="percent" id="ionic-pourcent"></p>
+              </div>
+              <div class="bar-container">
+                <span
+                  class="progressbar progressgreen"
+                  id="progress-ionic"
+                ></span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="progressbar-wrapper">
+              <div class="progressbar-title">
+                <p class="title bold">Data Structure</p>
+                <p class="percent" id="ds-pourcent"></p>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressorange" id="progress-ds"></span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="progressbar-wrapper">
+              <div class="progressbar-title">
+                <p class="title bold">Node.js</p>
+                <p class="percent" id="node-pourcent"></p>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressorange" id="progress-node"></span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="progressbar-wrapper">
+              <div class="progressbar-title">
+                <p class="title bold">MySQL</p>
+                <p class="percent" id="mysql-pourcent"></p>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressgreen" id="progress-mysql"></span>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Professional Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                Boarding Pass Kiosk - Lead Front End Developer
+              </h3>
+              <p class="project-wrapper__text-info">
+                I developed a boarding pass application using Angular and
+                Capacitor for airport kiosks, effectively collaborated with both
+                the backend team and the UX team. I followed best practices,
+                tracked progress on Jira while working in an agile environment,
+                attending daily scrum calls to ensure that the project was on
+                track. This helped in delivering the project on time and meeting
+                client's specifications. The final product was a user-friendly,
+                efficient application that improved the passenger experience at
+                the airport.
+              </p>
+              <div>
+                <p class="project-wrapper__skills">Technologies:</p>
+                <p>
+                  HTML5, (S)CSS, TypeScript, Angular, Capacitor, Jasmine, Karma,
+                  RxJS, Axios, AngularMaterial, SPA, Github, Jira, Scrum,
+                  Node.js, Agile, Visual Studio Code, NPM
+                </p>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://www.united.com/en/us/fly/company/brand/good-leads-the-way.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/united_airlines_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                Event Management Application - Lead Back End Developer
+              </h3>
+              <p class="project-wrapper__text-info">
+                I designed and developed APIs for an event management app using
+                MySQL and Node.js. I gathered requirements from the client and
+                clarified any doubts I had before implementing the APIs. I
+                followed best practices and standards to ensure that the code
+                was clean, maintainable, and scalable. The end result was a set
+                of robust and reliable APIs that met the client's requirements
+                and expectations.
+              </p>
+              <div>
+                <p class="project-wrapper__skills">Technologies:</p>
+                <p>
+                  RDBMS, MySQL, Express.js, Node.js, Rest APIs,Swagger,
+                  React.js, Scrum, Agile, Apache, Trello, Gitlab
+                </p>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://www.siriuscom.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/sirius_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                Sales Dashboard - Front End Developer
+              </h3>
+              <p class="project-wrapper__text-info">
+                As a developer for an IBM client, my primary responsibility was
+                to develop modular front-end components for the IBM Sales
+                Dashboard website. This included utilizing advanced web
+                development framework Angular to create reusable and
+                maintainable code, that would enhance the overall user
+                experience. I also ensured that the website was responsive and
+                compatible across various resolutions and browsers, by
+                implementing best practices and utilizing techniques such as CSS
+                Flexbox, and media queries. This required a deep understanding
+                of web development principles, as well as the ability to test
+                and debug the application on various devices and browsers. I was
+                able to deliver a seamless user experience to the sales teams,
+                regardless of the device or browser they were using, resulting
+                in a positive feedback from the client.
+              </p>
+              <div>
+                <p class="project-wrapper__skills">Technologies:</p>
+                <p>
+                  HTML5, (S)CSS, TypeScript, Angular 8, Ionic V4(Angular), Lazy
+                  Loading,+ RxJS, D3.js, SPA, Responsive Design, Scrum, Agile,
+                  Jira, Github
+                </p>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://www.ibm.com/uk-en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/ibm_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                Fashion E commerece - Javascript Developer
+              </h3>
+              <p class="project-wrapper__text-info">
+                As a part of the website development team for Calvin Klein
+                client, I was responsible for implementing new features and
+                improvements to the website. One of the key projects I worked on
+                was the integration of Klarna, a leading payment gateway, into
+                the website. This involved working with the Klarna API to
+                integrate the payment functionality and ensuring it was fully
+                compatible with the website's existing infrastructure. In
+                addition to this, I also replaced the legacy frontend library
+                called Dojo with a custom-written, lightweight JavaScript
+                solution. This was a significant undertaking as it required a
+                thorough understanding of the website's architecture and a
+                careful approach to ensure that all existing features still
+                functioned correctly. However, the end result was a 50%
+                reduction in page load time, which greatly improved the user
+                experience and increased the website's performance. Throughout
+                the project, I worked in a proper agile environment,
+                collaborating closely with my team members.
+              </p>
+              <div>
+                <p class="project-wrapper__skills">Technologies:</p>
+                <p>
+                  HTML5, CSS, Javascript, Dojo.js, Data Structures (Stack,
+                  Queue, Linked List, Trees) Scrum, IBM Websphere commerece,
+                  SVN, VMWare(Virtual Envirnment)
+                </p>
+              </div>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.calvinklein.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://www.calvinklein.co.uk/about-calvin-klein"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/ck_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <!-- <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                E commerece - Front End Developer
+              </h3>
+              <p class="project-wrapper__text-info">
+                
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.cutco.repApp&hl=en_GB&gl=US"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://www.cutco.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/cutco_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article> -->
+          <!-- /END Project -->
+
+          <h2 class="section-title dark-blue-text">Personal Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">IMDB Clone</h3>
+              <p class="project-wrapper__text-info">
+                Developed a fully functional IMDB clone website using Angular, a
+                JavaScript framework for building web applications. I
+                implemented all the best practices and concepts I learned while
+                studying Angular in order to create a polished and professional
+                website. The website includes a user registration and login
+                system, a search function for movies and TV shows, a responsive
+                design that adapts to different devices, integration with an
+                external API to retrieve movie and TV show data and use of
+                Angular libraries and tools to enhance the website's
+                functionality and performance.
+              </p>
+              <div>
+                <p class="project-wrapper__skills">Technologies:</p>
+                <p>
+                  HTML5, (S)CSS, Bootstrap, TypeScript, Angular, RxJS,
+                  AngularMaterial, Github, Firebase
+                </p>
+              </div>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://angularmoviecollection.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <!-- <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://angularmoviecollection.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/imdb_clone.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Portfolio</h3>
+              <p class="project-wrapper__text-info">
+                Developed a single-page portfolio web application using modern
+                web technologies, following best practices and design trends.
+                The website was responsive and showcases my skills and past
+                projects, it was deployed to Firebase.
+              </p>
+              <div>
+                <p class="project-wrapper__skills">Technologies:</p>
+                <p>
+                  HTML5, CSS, Javascript, scrollreveal.js, Vanilla-tilt.js,
+                  Github, Firebase
+                </p>
+              </div>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://gkportfolio.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <!-- <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://gkportfolio.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/portfolio_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Interested in working together?</p>
+          <a
+            href="mailto:gkumaravelpillai@gmail.com"
+            class="cta-btn cta-btn--resume"
+            >Email me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/gokul_kumar.pillai"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a
+            href="https://codepen.io/gokulkp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa fa-codepen"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/gokulkumaravel/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/GokulPillai98"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Developed by Gokul Kumaravel Pillai.
+          <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script src="./javascript/skill-progress.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
